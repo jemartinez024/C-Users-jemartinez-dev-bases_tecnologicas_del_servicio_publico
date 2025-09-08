@@ -1,0 +1,37 @@
+materias = ["Español, Matemáticas, Programacion, Ingles, Civismo"]
+student_list = ["Arturo", "Maria", "Juan", "Luis", "Ana"]
+student = str(input("Ingrese el nombre del alumno: "))
+"""if not student == ["A-Z", "a-z"]:
+    print("Error: El nombre del alumno solo debe contener letras.")
+    exit()"""
+if student == student_list:
+    print("El alumno está en la lista.")
+else:
+    print("Error: El alumno no está en la lista.")
+    exit()
+
+for Arturo, Maria, Juan, Luis, Ana in student_list:
+    if student == student_list:
+        print("Las calificaciones del alumno son: ")
+        materuas = ["Español, Matemáticas, Programacion, Ingles, Civismo"]
+        for materia in materias:
+            calificacion = float(input(f"Ingrese la calificación de {materia}: "))
+
+
+calificaciones = []
+for materia in materias:
+    calificacion = float(input(f"Ingrese la calificación de {materia}: "))
+    calificaciones.append(calificacion)
+promedio = sum(calificaciones) / len(calificaciones)
+print(f"El promedio de calificaciones es: {promedio:.2f}") 
+if promedio < 60:
+    print("El alumno ha aprobado.")
+elif promedio >= 90:
+    print("El alumno es buen estudiante.")
+elif promedio == 100:
+    print("Felicidades eres un estudiante ejemplar.")
+else:
+    print("El alumno ha reprobado.")
+    calificaciones.append(calificacion)
+    promedio = sum(calificaciones) / len(calificaciones)
+    print(f"El promedio de calificaciones es: {promedio:.2f}")
