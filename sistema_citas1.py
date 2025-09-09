@@ -7,9 +7,9 @@ n = int(input("Ingrese la cantidad de citas a registrar: "))
 
 solicitudes = [] # lista vecia
 for i in range (1, n + 1):
-    name_solicitante = str(input(f"Ingrese el Nombre del Solicitante: {i} " ))
-    hour = int(input(f"Ingrese las horas estimadas para la solicitud {i}: "))
-    min = int(input(f"Ingrese los minutos estimados para la solicitud {i}: "))
+    name_solicitante = str(input(f"Ingrese el Nombre del Solicitante {i} : " ))
+    hour = int(input(f"Ingrese las horas estimadas para la solicitud {i} : "))
+    min = int(input(f"Ingrese los minutos estimados para la solicitud {i} : "))
     time = hour * 60 + min # # Convertir todo a minutos para poder ordenar fácilmente
     solicitudes.append((name_solicitante, time)) # agrega una tupla a la lista
 
