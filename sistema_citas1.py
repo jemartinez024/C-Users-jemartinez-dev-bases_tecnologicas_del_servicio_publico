@@ -12,7 +12,10 @@ for i in range (1, n + 1):
     
 #solicitudes.append(name_solicitante, time_cita)
 solicitudes.append((name_solicitante, time_cita)) # agrega una tupla a la lista
-solicitudes.sort(key=lambda x: x[1]) # ordena la lista por el segundo elemento (tiempo de cita)
+print("Lista de solicitudes ordenadas por tiempo estimado:")
+
+"solicitudes.sort(key=lambda x: x[1]) # ordena la lista por el segundo elemento (tiempo de cita)"
+
 solicitudes.sort() # ordena la lista
 print(solicitudes)
 
