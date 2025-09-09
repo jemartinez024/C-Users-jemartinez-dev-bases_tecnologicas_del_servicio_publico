@@ -1,7 +1,5 @@
 print("*** Bienvenido al Sistema de Citas ***")
 
-"""n = 0
-i = 0"""
 
 # Programa para registrar solicitudes con tiempo en horas y minutos
 
@@ -9,7 +7,7 @@ n = int(input("Ingrese la cantidad de citas a registrar: "))
 
 solicitudes = [] # lista vecia
 for i in range (1, n + 1):
-    name_solicitante = str(input("Ingrese el Nombre o los Nombres de los Solicitantes: " ))
+    name_solicitante = str(input(f"Ingrese el Nombre del Solicitante: {i} " ))
     hour = int(input(f"Ingrese las horas estimadas para la solicitud {i}: "))
     min = int(input(f"Ingrese los minutos estimados para la solicitud {i}: "))
     time = hour * 60 + min # # Convertir todo a minutos para poder ordenar fácilmente
