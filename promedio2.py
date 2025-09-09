@@ -21,3 +21,4 @@ elif promedio == 10:
     print("Felicidades eres un estudiante ejemplar.")
 else:
     print("El alumno ha reprobado.")
+    
