@@ -30,7 +30,7 @@ for solicitud in solicitudes:
     min = time % 60 # Devuelve lo que sobra después de dividir entre 60
     print(f"Nombre: {name_solicitante} - Tiempo: {hour}h {min}m")
 
-print("Citas generadas exitosamente")
+
 
 
 
