@@ -1,0 +1,44 @@
+/* Selector universal: resetea márgenes y fuente */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Selector de etiqueta */
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Selector de clase */
+.tarjeta {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Selector de id */
+#nombre {
+  color: darkblue;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Selector descendente */
+.tarjeta p {
+  color: #555;
+  margin: 8px 0;
+}
+
+/* Pseudo-clase */
+.tarjeta a:hover {
+  color: red;
+  font-weight: bold;
+}

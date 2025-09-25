@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Insertar una imagen</title>
+    </head>
+    <body>
+        <h1>La imagen que voy a mostrar es esta</h1>
+        <img src="https://www.google.com/imgres?q=coche&imgurl=https%3A%2F%2Fwww.chevrolet.com.mx%2Fcontent%2Fdam%2Fchevrolet%2Fna%2Fmx%2Fes%2Findex%2Fperformance%2Fperformance-subcontent%2F01-images%2F2022-corvette.jpg%3Fimwidth%3D960&imgrefurl=https%3A%2F%2Fwww.chevrolet.com.mx%2Fdeportivos&docid=DP-KcXZAGobrSM&tbnid=IZjngqISyO6t5M&vet=12ahUKEwim_f7FleCPAxXgDEQIHQzFCwoQM3oECBsQAA..i&w=960&h=384&hcb=2&ved=2ahUKEwim_f7FleCPAxXgDEQIHQzFCwoQM3oECBsQAA"</img>
+    </body>
+</html>
