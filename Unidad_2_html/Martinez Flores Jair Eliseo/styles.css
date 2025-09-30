@@ -1,0 +1,27 @@
+p::first-letter {
+  color: rgb(229, 5, 5);
+}
+
+titulo::first-letter {
+  color: rgb(5, 5, 229);
+}
+/* La primera línea de cada párrafo en verde */
+p::first-line {
+  color: green;
+}
+
+/* La primera letra de cada h2 en azul */
+h2::first-letter {
+  color: blue;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.elemento {
+  cursor: move;
+}
+
+/* Cambiar el color del fondo de la pagina */
+body {
+  background-color: rgb(142, 177, 212);
+}

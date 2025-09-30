@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ac86da;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+    h1, h2, h3 {
+        font-weight: bold;
+        color: rgb(139, 219, 219);
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    p {
+        line-height: 1.6;
+    }
+    a {
+        color: blue;
+        text-decoration: dimgrey;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    
+.d-block {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {    
+    text-align: left;
+}
+
+.d-none {
+    display: none;
+}

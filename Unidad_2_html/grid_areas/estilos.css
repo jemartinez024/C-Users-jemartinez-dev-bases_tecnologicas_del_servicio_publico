@@ -1,0 +1,73 @@
+/*estilos para mi sitio web*/
+body { 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0; 
+    background-color: #b42626;
+        /*añadir imagen de fondo*/
+    background-image: url('https://getwallpapers.com/wallpaper/full/c/5/9/1243188-wallpaper-with-superheroes-1920x1080-windows-xp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+h1 { 
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 4px #ffffff;
+    
+}
+
+/*esto es para mi grid que lleva areas*/
+.contenedor
+{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; /* tres columnas */
+    grid-template-rows: 80px auto 80px; /* tres filas */
+    gap: 10px;
+    grid-template-areas:
+        "header header header"
+        "menu main aside"
+        "footer footer footer";
+    background-color: #f4f4f4;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+/*asigancion de areas*/
+.header { 
+    grid-area: header; background-color: #35424a; color: white;
+    background: lightblue;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: bold;
+}
+
+.menu { 
+    grid-area: menu; 
+    background: lightgreen;
+    display: flex; align-items: center; justify-content: center;
+}
+
+.main { 
+    grid-area: main; 
+    background: lightcoral;
+    display: flex; align-items: center; justify-content: center;
+    background-image: url('https://img.freepik.com/vector-gratis/papel-tapiz-estilo-comic_79603-1248.jpg?semt=ais_hybrid&w=740&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.aside { 
+    grid-area: aside; 
+    background: lightgoldenrodyellow;
+    display: flex; align-items: center; justify-content: center;
+}
+
+.footer { 
+    grid-area: footer; 
+    background: lightgray;
+    display: flex; align-items: center; justify-content: center;
+}
+
