@@ -47,6 +47,11 @@ h1 {
     grid-area: menu; 
     background: lightgreen;
     display: flex; align-items: center; justify-content: center;
+      background-image: url('https://png.pngtree.com/background/20210717/original/pngtree-colorful-cartoon-comic-zoom-background-with-pop-art-style-and-blank-picture-image_1423764.jpg');
+    background-size: cover;
+    background-position: center;
+    text-decoration-line: underline;
+    font-weight: bold;
 }
 
 .main { 
@@ -55,7 +60,7 @@ h1 {
     display: flex; align-items: center; justify-content: center;
     background-image: url('https://img.freepik.com/vector-gratis/papel-tapiz-estilo-comic_79603-1248.jpg?semt=ais_hybrid&w=740&q=80');
     background-size: cover;
-    background-position: center;
+    background-position: cover;
     color: white;
 }
 
@@ -63,7 +68,11 @@ h1 {
     grid-area: aside; 
     background: lightgoldenrodyellow;
     display: flex; align-items: center; justify-content: center;
+        background-image: url('https://img.freepik.com/vector-gratis/papel-tapiz-estilo-comic_79603-1248.jpg?semt=ais_hybrid&w=740&q=80');
+    background-size: cover;
+    background-position: right;
 }
+
 
 .footer { 
     grid-area: footer; 
