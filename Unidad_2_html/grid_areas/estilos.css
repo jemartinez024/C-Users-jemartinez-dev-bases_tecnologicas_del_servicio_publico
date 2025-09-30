@@ -41,6 +41,11 @@ h1 {
     background: lightblue;
     display: flex; align-items: center; justify-content: center;
     font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-box: 2px 2px 4px #ffffff;
+    background-image: url('https://wallpapers.com/images/hd/various-superhero-logos-wbc7y2z7xeaucdtl.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .menu { 
