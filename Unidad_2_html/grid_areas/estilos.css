@@ -68,9 +68,10 @@ h1 {
     grid-area: aside; 
     background: lightgoldenrodyellow;
     display: flex; align-items: center; justify-content: center;
-        background-image: url('https://img.freepik.com/vector-gratis/papel-tapiz-estilo-comic_79603-1248.jpg?semt=ais_hybrid&w=740&q=80');
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST1gcmfk4LExFBsbPFl17UcTIHyQ-pFrKzjg&s');
     background-size: cover;
-    background-position: right;
+    background-position: center;
+    color: blanchedalmond;
 }
 
 
