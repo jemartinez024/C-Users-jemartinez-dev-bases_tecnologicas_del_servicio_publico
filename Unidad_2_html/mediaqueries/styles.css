@@ -1,0 +1,29 @@
+/*Estilos para los distintos dispositivos*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.caja {
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    border-radius: 8px;
+}
+
+/* Cuando el minimo sea de 600px esot para el caso de tablets */
+
+@media (min-width: 600px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .caja {
+        background-color: darkorange;
+        width: 60%;
+    }
+}
