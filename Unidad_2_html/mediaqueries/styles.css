@@ -27,3 +27,16 @@ body {
         width: 60%;
     }
 }
+
+/* Cuando el minimo sea de 900px esto para el caso de monitores */
+
+@media (min-width: 900px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .caja {
+        background-color: darkcyan;
+        width: 40%;
+    }
+}
