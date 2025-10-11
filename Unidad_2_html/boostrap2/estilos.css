@@ -1,0 +1,104 @@
+/* ===== Estilo general ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fc;
+  color: #333;
+  padding-top: 70px; /* espacio para navbar fija */
+  scroll-behavior: smooth;
+}
+
+h1, h2 {
+  font-weight: 600;
+}
+
+/* ===== Encabezado ===== */
+header {
+  background: linear-gradient(90deg, #0d6efd, #004ea1);
+  color: white;
+}
+
+/* ===== Imagen de perfil ===== */
+img.rounded-circle {
+  border: 4px solid #0d6efd;
+  transition: transform 0.3s ease;
+}
+
+img.rounded-circle:hover {
+  transform: scale(1.05);
+}
+
+/* ===== Botones ===== */
+.btn-primary {
+  background: linear-gradient(90deg, #0d6efd, #004ea1);
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-success {
+  transition: transform 0.2s ease;
+}
+
+.btn-success:hover {
+  transform: translateY(-3px);
+}
+
+/* ===== Carrusel ===== */
+.carousel-inner img {
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.carousel-caption {
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: linear-gradient(#004ea1, #0d6efd);
+  color: white;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.footer-columns {
+  background: #0d6efd;
+  background: linear-gradient(90deg, #004ea1, #0d6efd);
+}
+
+.footer-columns h5 {
+  margin-bottom: 1rem;
+}
+
+.footer-columns a:hover {
+  color: #ffc107;
+}
+
+/* ===== Responsividad ===== */
+@media (max-width: 768px) {
+  main {
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .btn-lg {
+    width: 100%;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    background-color: #004ea1;
+  }
+}
+
+
+
