@@ -1,0 +1,36 @@
+/* Tamaño base del documento */
+html {
+    font-size: 16px; /* 1rem = 16px */
+    text-align: center;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 20px;
+    background: #f0f0f0;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Ejemplo rem */
+.texto-rem {
+    background-color: lightblue;
+    padding: 1.5rem; /* 1.5 × 16px = 24px */
+}
+
+/* Ejemplo ch */
+.texto-ch {
+    background-color: lightgreen;
+    padding: 5ch; /* 5 × ancho de "0" en la fuente actual */
+}
+
+/* Ejemplo em */
+.texto-em {
+    background-color: lightcoral;
+    padding: 2em; /* 2 × tamaño de fuente del elemento */
+    font-size: 20px; /* 1em = 20px aquí */
+}

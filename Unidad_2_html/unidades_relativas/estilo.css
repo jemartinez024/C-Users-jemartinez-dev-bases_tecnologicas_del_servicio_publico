@@ -1,0 +1,59 @@
+/* Estilos base (escritorio) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.botones {
+  display: flex;
+  gap: 10px; /* espacio entre botones */
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:first-child {
+  background: #007bff;
+  color: white;
+}
+
+button:last-child {
+  background: #28a745;
+  color: white;
+}
+
+/* Adaptación para pantallas móviles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .botones {
+    flex-direction: column; /* botones apilados */
+    gap: 15px;
+  }
+
+  button {
+    width: 100%; /* ancho completo en móvil */
+  }
+}
